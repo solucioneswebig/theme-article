@@ -1,10 +1,19 @@
 <?php
 get_header();
- 
+
+    $url_image = get_the_post_thumbnail_url();
+
+    if(!$url_image){
+    $fondo = "background: #000 !important;";
+    }else{
+      $fondo = "background-image: url(".$url_image.") !important;";
+    }
+    
+
 ?>
    
   <!-- Header -->
-  <header class="fondo-blog">
+  <header class="fondo-blog" style="<?php echo $fondo; ?>">
     <div class="transparente" style="background-color: #00000080;">
     <div class="container">
       <div class="row justify-content-center">

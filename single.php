@@ -2,10 +2,21 @@
 get_header();
  
 if ( have_posts() ) : 
-    while ( have_posts() ) : the_post(); ?>
+    while ( have_posts() ) : the_post();
+
+    $url_image = get_the_post_thumbnail_url();
+
+    if(!$url_image){
+    $fondo = "background: #000 !important;";
+    }else{
+      $fondo = "background-image: url(".$url_image.") !important;";
+    }
+    
+
+?>
 
 <!-- Header -->
-  <header class="fondo-blog-interna" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>) !important;">
+  <header class="fondo-blog-interna" style="<?php echo $fondo; ?>">
     <div class="transparente" style="background-color: #00000080;">
     <div class="container">
       <div class="row justify-content-center">

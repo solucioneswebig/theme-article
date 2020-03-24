@@ -13,7 +13,7 @@ if ( have_posts() ) :
     }
     
 
-?>
+?> 
 
  <header class="fondo-blog-interna" style="<?php echo $fondo; ?>">
     <div class="transparente" style="background-color: #000;">
@@ -27,7 +27,7 @@ if ( have_posts() ) :
       </div>
     </div>
     </div>
-  </header>
+  </header> 
 
 <section style="padding:120px 0px 80px 0px;">
 
