@@ -4,12 +4,30 @@ get_header();
 if ( have_posts() ) : 
     while ( have_posts() ) : the_post();
 ?>
+
+ <header class="fondo-blog-interna" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>) !important;">
+    <div class="transparente" style="background-color: #00000080;">
+    <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-md-10 m-auto">
+      <div class="intro-text">
+        <h1 class="titulo-blog-interna text-center pb-5"><?php echo the_title(); ?></h1>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
 <section style="padding:120px 0px 80px 0px;">
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-9">
 				<?php the_content(); ?>
+			</div>
+			<div class="col-md-3">
+				<?php get_sidebar(); ?>
 			</div>
 		</div>
 	</div>
@@ -23,6 +41,6 @@ else :
     _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
 endif;
  
-get_sidebar();
+
 get_footer();
 ?>
