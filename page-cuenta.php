@@ -26,8 +26,8 @@ include "includes/head.php";
 
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
+      <div class="row justify-content-center">
+        <div class="col-md-11">
           <?php 
           if ( have_posts() ) : 
             while ( have_posts() ) : the_post();
