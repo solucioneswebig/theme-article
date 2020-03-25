@@ -1,7 +1,7 @@
 <?php 
 get_header();
 ?>
-
+<!-- PAGINA 404.PHP -->
   <header class="fondo-blog-interna" style="background-color: #000;">
     <div class="transparente" style="background-color: #00000080;">
     <div class="container">

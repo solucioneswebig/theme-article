@@ -9,7 +9,11 @@ wp_head();
 <?php
 
 include "includes/head.php";
+
 ?>
+
+<!-- PAGINA PAGE-CUENTA.PHP -->
+
 <div class="wrapper">
   <?php include "includes/menu-side.php"; ?>
 

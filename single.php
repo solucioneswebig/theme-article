@@ -14,7 +14,7 @@ if ( have_posts() ) :
     
 
 ?>
-
+<!-- PAGINA SINGLE.PHP -->
 <!-- Header -->
   <header class="fondo-blog-interna" style="<?php echo $fondo; ?>">
     <div class="transparente" style="background-color: #00000080;">
