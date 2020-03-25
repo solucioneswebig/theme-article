@@ -17,6 +17,10 @@ p {
   color: #000;
 }
 
+.woocommerce-MyAccount-navigation{
+  display: none;
+}
+
 .linea{
     text-decoration: underline;
 }

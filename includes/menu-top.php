@@ -16,7 +16,7 @@
               <a class="nav-link text-white" href="#">Mi Cuenta</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link text-white" href="dashboard/logaut">Salir</a>
+               <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/mi-cuenta/customer-logout/?_wpnonce=6916a17560">Salir</a>
             </li>
           </ul>
         </div>
