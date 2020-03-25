@@ -21,21 +21,15 @@ include "includes/head.php";
     <div class="content-wrapper">
 
 
-      <div class="row mb-4">
-
-          
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <?php the_content(); ?>
+        </div>
       </div>
+    </div>
 
 
-        <div class="row mb-4">
-          
-      </div>
-
-
-        <div class="row mb-4">
-         
-      </div>
 
 
     </div>
