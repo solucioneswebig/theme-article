@@ -25,6 +25,29 @@ a:hover {
   color: #3df900 !important;
 }
 
+.diseno a:hover {
+  color: #3df900 !important;
+  background-color: #fff !important;
+  border-radius: 30px;
+  border: 2px solid #3df900;
+}
+
+.title-encontrada{
+  font-size: 70px;
+}
+
+.boton-encontrada{
+    background-color: #00ff27;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cuerpo{
+  position: relative;
+}
+
 #owl-demo .item{
   margin: 3px;
 }

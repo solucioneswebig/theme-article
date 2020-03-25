@@ -10,7 +10,7 @@ get_header();
       <div class="row justify-content-center">
       <div class="col-md-10">
       <div class="intro-text">
-        <h1 class="titulo pb-5">Get Ultra-High Quality, Content To Turbo-Charge Your </h1>
+        <h1 class="titulo type-wrap pb-5">Get Ultra-High Quality, Content To Turbo-Charge Your <span id="typed2" style="white-space:pre;"></span></h1>
         <h2 class="intro-headin text-center">Blog posts, Blog Posts, Product Descriptions, SEO Articles, Press Releases, Product Reviews, Web Copy, Rewrites -
 We got you covered</h2>
         

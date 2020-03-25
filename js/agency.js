@@ -40,4 +40,28 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  if($("#typed2").length){
+   var typed2 = new Typed('#typed2', {
+    strings: [
+      'with',
+      'Some',
+      'exito',
+      'Chars'
+    ],
+    typeSpeed: 70,
+    backSpeed: 50,
+    backDelay: 500,
+    startDelay: 1000,
+    loop: true,
+  });   
+  }
+
+
+$(document).ready(function() {
+    $('#sidebarCollapse').on('click', function () {
+    $('#sidebar').toggleClass('active');
+    $(this).toggleClass('active');
+  });
+});
+
 })(jQuery); // End of use strict

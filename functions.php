@@ -8,8 +8,10 @@ function wp_theme_main_style(){
   wp_enqueue_style('owlcarousel-css',get_template_directory_uri().'/assets/lib/owlcarousel/assets/owl.carousel.min.css',false);
   wp_enqueue_style('litbox-css',get_template_directory_uri().'/assets/lib/lightbox/css/lightbox.min.css',false);
     
-  wp_enqueue_style('style-css',get_template_directory_uri().'/css/agency.css',false);
+  wp_enqueue_style('style-agency-css',get_template_directory_uri().'/css/agency.css',false);
   wp_enqueue_style('style-min-css',get_template_directory_uri().'/css/agency.min.css',false);
+  wp_enqueue_style('style-css',get_template_directory_uri().'/css/style.css',false);
+  wp_enqueue_style('style5-css',get_template_directory_uri().'/css/style5.css',false);
   //wp_enqueue_style('responsive-css',get_template_directory_uri().'/css/responsive.css',false);
   //wp_enqueue_style('fonts-googles','https://use.fontawesome.com/releases/v5.3.1/css/all.css',false);
 
@@ -46,9 +48,10 @@ function insert_jquery(){
   wp_enqueue_script( 'contactform-js',get_template_directory_uri().'/assets/lib/contactform/contactform.js' , array('jquery'), '4.3.1', true );
   
   
-
+  wp_enqueue_script( 'typed-min-js', get_template_directory_uri().'/js/typed.min.js', array('jquery'), '1.0.0', true );
   wp_enqueue_script( 'script-js', get_template_directory_uri().'/js/agency.js', array('jquery'), '1.0.0', true );
   wp_enqueue_script( 'script-min-js', get_template_directory_uri().'/js/agency.min.js', array('jquery'), '1.0.0', true );
+
   //wp_enqueue_script( 'owl-carousel-js', get_template_directory_uri().'/js/owl.carousel.js', array('jquery'), '1.0.0', true );
 
 }
