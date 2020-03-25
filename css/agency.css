@@ -338,14 +338,9 @@ h6 {
 }
 }
 
-::-moz-selection {
-  background: #62ff00;
-  text-shadow: none;
-}
-
 ::selection {
-  background: #62ff00;
-  text-shadow: none;
+    background: #2982ce !important;
+    text-shadow: none;
 }
 
 img::-moz-selection {

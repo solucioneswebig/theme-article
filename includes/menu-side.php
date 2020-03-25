@@ -19,7 +19,7 @@
      <li class="active">
         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">MI CUENTA</a>
         <ul class="collapse list-unstyled" id="homeSubmenu">
-          <li>
+          <!---<li>
             <a href="<?php echo get_site_url(); ?>/mi-cuenta">Escritorio</a>
           </li>
           <li>
@@ -30,7 +30,7 @@
           </li>
           <li>
             <a href="<?php echo get_site_url(); ?>/mi-cuenta/edit-address">Direcciones</a>
-          </li>
+          </li>-->
           <li>
             <a href="<?php echo get_site_url(); ?>/mi-cuenta/edit-account">Detalles de la cuenta</a>
           </li>
