@@ -61,10 +61,6 @@ a:hover {
     text-shadow: none;
 }
 
-.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button:hover {
-   color:  #00bc1d !important;
-    background-color: #fff !important;
-}
 
 .woocommerce-Input {
     padding: 5px 11px;
