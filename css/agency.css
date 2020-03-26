@@ -17,6 +17,10 @@ p {
   color: #000;
 }
 
+.woocommerce-MyAccount-navigation{
+  display: none;
+}
+
 .linea{
     text-decoration: underline;
 }
@@ -30,6 +34,35 @@ a:hover {
   background-color: #fff !important;
   border-radius: 30px;
   border: 2px solid #3df900;
+}
+
+/*AJUSTANDO */
+
+.woocommerce-EditAccountForm p:last-child{
+    text-align: center;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #ffffff !important;
+    background-color: #00bc1d !important;
+    border: 0;
+    display: inline-block;
+}  
+
+.woocommerce-Input {
+    padding: 5px 11px;
+    border-radius: 6px;
 }
 
 .title-encontrada{
@@ -334,14 +367,9 @@ h6 {
 }
 }
 
-::-moz-selection {
-  background: #62ff00;
-  text-shadow: none;
-}
-
 ::selection {
-  background: #62ff00;
-  text-shadow: none;
+    background: #2982ce !important;
+    text-shadow: none;
 }
 
 img::-moz-selection {
@@ -377,6 +405,14 @@ img::-moz-selection {
   color: white;
 }
 
+.form-row {
+    display: -ms-flexbox;
+    display: grid !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
