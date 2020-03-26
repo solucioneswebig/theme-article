@@ -11,7 +11,6 @@ wp_head();
 include "includes/head.php";
 
 ?>
-
 <!-- PAGINA PAGE-CUENTA.PHP -->
 
 <div class="wrapper">
