@@ -36,8 +36,7 @@ a:hover {
   border: 2px solid #3df900;
 }
 
-.woocommerce-EditAccountForm p button{
-    justify-content: center;
+.woocommerce-EditAccountFormResultados p:last-child button{
     text-align: center;
 }
 
