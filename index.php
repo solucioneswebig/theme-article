@@ -11,7 +11,7 @@ get_header();
     
 
 ?>
-   
+   <!-- PAGINA INDEX.PHP -->
   <!-- Header -->
   <header class="fondo-blog" style="<?php echo $fondo; ?>">
     <div class="transparente" style="background-color: #00000080;">
