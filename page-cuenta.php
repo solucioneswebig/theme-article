@@ -14,8 +14,11 @@ include "includes/head.php";
 <!-- PAGINA PAGE-CUENTA.PHP -->
 
 <div class="wrapper">
+  <?php 
+  if(is_user_logged_in()):
+  ?>
   <?php include "includes/menu-side.php"; ?>
-
+  <?php endif; ?>
   <!-- Page Content Holder -->
   <div id="content">
 
@@ -23,7 +26,9 @@ include "includes/head.php";
 
     <div class="content-wrapper">
 
-
+    <?php 
+    if(is_user_logged_in()):
+    ?>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8">
@@ -40,10 +45,11 @@ include "includes/head.php";
         </div>
       </div>
     </div>
-
-
-
-
+    <?php 
+    else: 
+    echo do_shortcode('[wc_login_form_dashboard]');
+    endif; 
+    ?>
     </div>
 
 
