@@ -94,3 +94,14 @@ label{
    .woocommerce form .form-row-first{
      width: 100% !important;
    }
+
+   .wrapper-account{
+    background: url(http://directorioelnacional.com/IQOS/assets/img/splash-1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+
+   .wrapper-account .content{
+    background: rgba(255,255,255,.6);
+   }
