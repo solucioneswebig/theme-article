@@ -90,3 +90,7 @@ label{
     padding: 5%;
   }
    /*============== Fin utils ===========*/
+
+   .woocommerce form .form-row-first{
+     width: 100% !important;
+   }
