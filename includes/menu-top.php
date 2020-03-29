@@ -31,9 +31,6 @@
             <li class="nav-item">
                <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/mi-cuenta/">Acceder</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/register/">Registrarse</a>
-            </li>
           </ul>
 
 
