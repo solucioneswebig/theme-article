@@ -22,6 +22,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
+
+          <?php if(is_home() || is_front_page()): ?>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Home</a>
           </li>
@@ -39,7 +41,17 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
 
- 
+          <?php 
+          else:
+          ?>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>">Home</a>
+          </li>         
+
+          <?php 
+          endif; 
+          ?>
 
         <?php 
         if(is_user_logged_in()):
