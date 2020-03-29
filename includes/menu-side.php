@@ -19,7 +19,7 @@
       </li>
       
       <li>
-        <a href="<?php echo get_site_url(); ?>/mi-cuenta/gestion-de-pedidos">GESTIÓN DE PEDIDOS</a>
+        <a href="<?php echo get_site_url(); ?>/mi-cuenta/orders">GESTIÓN DE PEDIDOS</a>
       </li>
 
 
