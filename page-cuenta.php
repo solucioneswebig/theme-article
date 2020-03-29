@@ -50,7 +50,7 @@ include "includes/head.php";
     ?>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-4">
+        <div class="col-md-12">
           <?php echo do_shortcode('[woocommerce_my_account]'); ?>
         </div>
       </div>
