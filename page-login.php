@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Pagina mi cuenta
+Template Name: Pagina accesos
 */
 wp_head();
 ?>
@@ -26,9 +26,7 @@ include "includes/head.php";
 
     <div class="content-wrapper">
 
-    <?php 
-    if(is_user_logged_in()):
-    ?>
+
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8">
@@ -45,19 +43,7 @@ include "includes/head.php";
         </div>
       </div>
     </div>
-    <?php 
-    else: 
-    ?>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <?php echo do_shortcode('[wc_login_form_dashboard]'); ?>
-        </div>
-      </div>
-    </div>
-    <?php
-    endif; 
-    ?>
+
     </div>
 
 
