@@ -163,7 +163,7 @@ function woocommerce_support() {
 
 /**
 * 
-* @compatible    WooCommerce 3.6.5
+* @compatible    WooCommerce 3.8.1
 * 
 */
 // THIS WILL CREATE A NEW SHORTCODE: [wc_reg_form_dashboard]

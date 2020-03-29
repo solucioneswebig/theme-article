@@ -36,7 +36,7 @@ include "includes/head.php";
           if ( have_posts() ) : 
             while ( have_posts() ) : the_post();
           
-          the_content(); 
+              the_content(); 
           
             endwhile;
             endif;
@@ -47,7 +47,15 @@ include "includes/head.php";
     </div>
     <?php 
     else: 
-    echo do_shortcode('[wc_login_form_dashboard]');
+    ?>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <?php echo do_shortcode('[wc_login_form_dashboard]'); ?>
+        </div>
+      </div>
+    </div>
+    <?php
     endif; 
     ?>
     </div>
