@@ -34,9 +34,31 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Products</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+
+ 
+
+        <?php 
+        if(is_user_logged_in()):
+        ?>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/mi-cuenta/">Mi cuenta</a>
+          </li>   
+
+
+        <?php else: ?>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/mi-cuenta/">Acceder</a>
+          </li>   
+
+
+        <?php endif; ?>             
+
         </ul>
       </div>
     </div>
