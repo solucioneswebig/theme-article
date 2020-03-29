@@ -58,14 +58,14 @@
         ?>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/mi-cuenta/">Mi cuenta</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/mi-cuenta/"><i class="fa fa-user-cog"></i> Mi cuenta</a>
           </li>   
 
 
         <?php else: ?>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/mi-cuenta/">Acceder</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/mi-cuenta/"><i class="fa fa-sign-in-alt"></i> Acceder</a>
           </li>   
 
 
