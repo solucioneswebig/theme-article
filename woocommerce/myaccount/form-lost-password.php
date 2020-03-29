@@ -19,8 +19,9 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_lost_password_form' );
 ?>
-
-<form method="post" class="woocommerce-ResetPassword lost_reset_password">
+<div class="row justify-content-center">
+	<div class="col-md-4">
+	<form method="post" class="woocommerce-ResetPassword lost_reset_password">
 
 	<p><?php echo apply_filters( 'woocommerce_lost_password_message', esc_html__( 'Lost your password? Please enter your username or email address. You will receive a link to create a new password via email.', 'woocommerce' ) ); ?></p><?php // @codingStandardsIgnoreLine ?>
 
@@ -40,6 +41,9 @@ do_action( 'woocommerce_before_lost_password_form' );
 
 	<?php wp_nonce_field( 'lost_password', 'woocommerce-lost-password-nonce' ); ?>
 
-</form>
+	</form>	
+	</div>
+</div>
+
 <?php
 do_action( 'woocommerce_after_lost_password_form' );
