@@ -25,9 +25,10 @@
           </ul>
 
         <?php else: ?>
+
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-               <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/"><i class="fa fa-home"></i> Ir al home</a>
+               <a class="nav-link text-white" href="<?php echo get_site_url(); ?>"><i class="fa fa-home"></i> Ir al home</a>
             </li>
           </ul>
 
