@@ -31,7 +31,7 @@ include "includes/head.php";
     ?>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <?php 
           if ( have_posts() ) : 
             while ( have_posts() ) : the_post();
