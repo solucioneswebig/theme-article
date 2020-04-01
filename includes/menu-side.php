@@ -15,11 +15,11 @@
       
 
       <li>
-        <a href="<?php echo get_site_url(); ?>/mi-cuenta/crear-pedido">CRAR PEDIDO</a>
+        <a href="<?php echo get_site_url(); ?>/mi-cuenta/gestion-pedidos/?slug=add_new">CRAR PEDIDO</a>
       </li>
       
       <li>
-        <a href="<?php echo get_site_url(); ?>/mi-cuenta/orders">GESTIÓN DE PEDIDOS</a>
+        <a href="<?php echo get_site_url(); ?>/mi-cuenta/gestion-pedidos/">GESTIÓN DE PEDIDOS</a>
       </li>
 
 
