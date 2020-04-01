@@ -2,7 +2,7 @@
 
 function wp_theme_main_style(){
   wp_enqueue_style('bootstrap-css',get_template_directory_uri().'/assets/lib/bootstrap/css/bootstrap.min.css',false);
-  wp_enqueue_style('fontawesome',get_template_directory_uri().'/assets/vendor/fontawesome-free/css/all.min.css',false);
+  wp_enqueue_style('fontawesome',get_template_directory_uri().'/assets/vendor/fontawesome/css/all.min.css',false);
   wp_enqueue_style('animate-css',get_template_directory_uri().'/assets/lib/animate/animate.min.css',false);
   wp_enqueue_style('ionicons-css',get_template_directory_uri().'/assets/lib/ionicons/css/ionicons.min.css',false);
   wp_enqueue_style('owlcarousel-css',get_template_directory_uri().'/assets/lib/owlcarousel/assets/owl.carousel.min.css',false);
