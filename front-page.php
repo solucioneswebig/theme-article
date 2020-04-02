@@ -21,7 +21,7 @@ We got you covered</h2>
       </div>
       <div class="row justify-content-center espacio-bottom-p py-4">
           <div class="col-md-10 text-center">
-            <a href="#" class="btn boton">Order Now</a>
+            <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton">Order Now</a>
           </div>
        </div>
       <div class="row justify-content-center pt-4 espacio-arriba-p">
@@ -279,7 +279,7 @@ We got you covered</h2>
 
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. temporibus mollitia, ratione, dolorum placeat quisquam.</p>
 
-            <a href="#" class="btn boton">Order Now</a>
+            <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton">Order Now</a>
           </div>
        </div>
 
@@ -446,7 +446,7 @@ We got you covered</h2>
         </div>
         <div class="row py-5 justify-content-center espacio-bottom-p">
                   <div class="col-md-12 text-center">
-                    <a href="#home" class="btn boton py-2 text-center">Order Now!</a>
+                    <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton py-2 text-center">Order Now!</a>
                   </div>
                </div>
 
