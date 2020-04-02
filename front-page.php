@@ -4,7 +4,7 @@ get_header();
 
 
  <!-- Header -->
-  <header class="masthead">
+  <header class="masthead" id="home">
     <div class="transparente" style="background-color: #00000080;">
     <div class="container">
       <div class="row justify-content-center">
@@ -30,12 +30,12 @@ We got you covered</h2>
          </div>
       </div>
     </div>
-    </div>
+    </div> 
   </header>
 
 
 <!--====SECCION N°1===-->
-  <section class="espacio-arriba espacio-arriba-p espacio-bottom-p">
+  <section class="espacio-arriba espacio-arriba-p espacio-bottom-p" id="who-we-are">
       <div class="container pb-4">
           <div class="row">
               <div class="col-md-4">
@@ -64,7 +64,7 @@ We got you covered</h2>
 
 
  <!--====SECCION N°2===-->
-  <section class="fondo-gris espacio-arriba-p espacio-bottom-p" id="services">
+  <section class="fondo-gris espacio-arriba-p espacio-bottom-p" id="why-us">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -174,7 +174,7 @@ We got you covered</h2>
 <section class="espacio-arriba espacio-bottom-p"> 
     <div class="container">
       <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase py-4">Why Us</h2>
+          <h2 class="section-heading text-uppercase py-4">What Clients Say</h2>
         </div>
         <div class="row justify-content-center">
 
@@ -237,7 +237,7 @@ We got you covered</h2>
 
 
    <!--====SECCION N°5===-->
-  <section class="espacio-arriba-p fondo-gris" id="services">
+  <section class="espacio-arriba-p fondo-gris" id="how-to-order">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -293,11 +293,14 @@ We got you covered</h2>
 
 
 <!--====SECCION N°6===-->
-  <section class="espacio-arriba espacio-bottom-p">
+  <section class="espacio-arriba espacio-bottom-p" id="faq">
       <div class="demo">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-lg-12 text-center py-4">
+          <h2 class="section-heading text-uppercase">FAQ</h2>
+        </div>
+            <div class="col-md-8 pt-3">
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
                     <div class="panel panel-default">
@@ -443,7 +446,7 @@ We got you covered</h2>
         </div>
         <div class="row py-5 justify-content-center espacio-bottom-p">
                   <div class="col-md-12 text-center">
-                    <a href="#" class="btn boton py-2 text-center">Order Now!</a>
+                    <a href="#home" class="btn boton py-2 text-center">Order Now!</a>
                   </div>
                </div>
 

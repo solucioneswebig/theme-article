@@ -90,15 +90,6 @@ a:hover {
   height: auto;
 }
 
-h2.widgettitle::before {
-    content: "";
-    width: 40px;
-    position: absolute;
-    bottom: -7px;
-    border-bottom: 7px solid rgb(0, 255, 39);
-    border-radius: 5px;
-}
-
 .widgettitle {
     font-size: 22px !important;
     margin: 12px 0px !important;

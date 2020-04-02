@@ -23,24 +23,26 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
 
-          <?php if(is_home() || is_front_page()): ?>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Products</a>
-          </li>
+          <?php if(is_home() || is_front_page()): ?> 
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#who-we-are">WHO WE ARE</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#why-us">WHY US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#how-to-order">HOW TO ORDER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/blog">BLOG</a>
+          </li>
+         <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact-us">CONTACT US</a>
+          </li>-->
           <?php 
           else:
           ?>
