@@ -466,7 +466,7 @@ We got you covered</h2>
              </div>
              <div class="row pt-5 justify-content-center">
                   <div class="col-md-12 text-center">
-                    <a href="#" class="btn boton py-2 text-center">Contact Us</a>
+                    <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton py-2 text-center">Contact Us</a>
                   </div>
                </div>
        
