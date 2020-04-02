@@ -37,6 +37,8 @@ get_header();
   <section class="bg-white" id="portfolio">
     <div class="espacio-arriba-p espacio-bottom-p">
     <div class="container">
+    <div class="row">
+    <div class="col-md-9">
       <div class="row">
 <?php
 if ( have_posts() ) : 
@@ -71,6 +73,13 @@ endif;
 
 
       </div>
+      </div>
+      <div class="col-md-3">
+        <?php get_sidebar( ); ?>
+      </div>
+
+</div>
+
     </div>
     </div>
   </section>
