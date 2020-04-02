@@ -5,10 +5,6 @@
     </div>
     <h5 class="text-center"></h5>
     <ul class="list-unstyled components">
-      <p class="text-center"><?php echo $obtener_datos_user["nombre_completo"]." ".$obtener_datos_user["apellido_paterno"]; ?></p>
-     
-
-
       <li>
         <a href="<?php echo get_site_url(); ?>/mi-cuenta/">MI CUENTA</a>
       </li>
