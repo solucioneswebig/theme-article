@@ -36,7 +36,7 @@ get_header();
   <!--====SECCION N°1===-->
   <section class="bg-white" id="portfolio">
     <div class="espacio-arriba-p espacio-bottom-p">
-    <div class="container">
+    <div class="container-fluid">
     <div class="row">
     <div class="col-md-9">
       <div class="row">
