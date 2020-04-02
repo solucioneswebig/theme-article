@@ -1,13 +1,8 @@
 <?php
 get_header();
 
-    $url_image = get_the_post_thumbnail_url();
-
-    if(!$url_image){
     $fondo = "background: #000 !important;";
-    }else{
-      $fondo = "background-image: url(".$url_image.") !important;";
-    }
+
     
 
 ?>
@@ -58,7 +53,8 @@ if ( have_posts() ) :
           </a>
           <div class="portfolio-caption">
             <small class="text-uppercase"><?php echo  get_the_date( 'F').", ".get_the_date( 'Y'); ?></small>
-
+            <a class="color-a" href="<?php echo get_permalink(); ?>"><h4 class="py-1 text-uppercase"><?php echo apply_filters( 'the_title', wp_trim_words( get_the_title(), 4, '&hellip;' ) ); ?></h4></a>
+            <p class="pt-2"><?php echo apply_filters( 'the_content', wp_trim_words( get_the_content(), 15, '&hellip;' ) ); ?></p>
             <a class="text-left color-a linea" href="<?php echo get_permalink(); ?>">Leer más</a>
           </div>
         </div>
