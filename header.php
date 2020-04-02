@@ -26,16 +26,16 @@
           <?php if(is_home() || is_front_page()): ?> 
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#who-we-are">WHO WE ARE</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/#who-we-are">WHO WE ARE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#why-us">WHY US</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/#why-us">WHY US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#how-to-order">HOW TO ORDER</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/#how-to-order">HOW TO ORDER</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/#faq">FAQ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="<?php echo get_site_url(); ?>/blog">BLOG</a>
