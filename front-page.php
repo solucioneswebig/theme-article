@@ -365,56 +365,44 @@ We got you covered</h2>
         </div>
       </div>
       <div class="row">
+
+      <?php 
+
+        $args = array(
+          'post_type' => 'post',
+          'posts_per_page' => 3
+        );
+
+        $query = new WP_Query( $args );
+
+        if ( $query->have_posts() ) { 
+          while ( $query->have_posts() ) { 
+                $query->the_post();
+      ?>
+
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="#">
+          <a class="portfolio-link" href="<?php echo get_permalink(); ?>">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""> 
           </a>
           <div class="portfolio-caption">
-            <small>January, 2020</small>
-            <h4 class="py-1">Threads consectetur adipisicing</h4>
-            <p class="text-muted">Illustration Lorem ipsum dolor sit amet.</p>
-            <a href="#">Leer más</a>
+            <small class="text-uppercase"><?php echo  get_the_date( 'F').", ".get_the_date( 'Y'); ?></small>
+            <a class="color-a" href="<?php echo get_permalink(); ?>"><h4 class="py-1 text-uppercase"><?php echo apply_filters( 'the_title', wp_trim_words( get_the_title(), 4, '&hellip;' ) ); ?></h4></a>
+            <p class="pt-2"><?php echo apply_filters( 'the_content', wp_trim_words( get_the_content(), 15, '&hellip;' ) ); ?></p>
+            <a class="text-left color-a linea" href="<?php echo get_permalink(); ?>">Leer más</a>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="#">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/02-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <small>January, 2020</small>
-            <h4 class="py-1">Explore consectetur adipisicing elit. </h4>
-            <p class="text-muted">Graphic Design Lorem ipsum sit amet.</p>
-             <a href="#">Leer más</a>
-          </div>
-        </div>
+      <?php 
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="#">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/03-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <small>January, 2020</small>
-            <h4 class="py-1">Finish consectetur adipisicing elit</h4>
-            <p class="text-muted">Identity Lorem ipsum dolor sit amet.</p>
-             <a href="#">Leer más</a>
-          </div>
-        </div>
+        }
+      }
+      wp_reset_postdata();
+      ?>
       </div>
     </div>
     </div>
