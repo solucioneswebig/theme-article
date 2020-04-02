@@ -20,10 +20,10 @@
                 <a class="nav-link text-white" href="<?php echo get_site_url(); ?>"><i class="fa fa-home"></i> Ir al home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/mi-cuenta/edit-account">Editar Cuenta</a>
+              <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/mi-cuenta/edit-account"><i class="fas fa-user-cog"></i> Editar Cuenta</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/mi-cuenta/customer-logout/?_wpnonce=6916a17560">Salir</a>
+               <a class="nav-link text-white" href="<?php echo get_site_url(); ?>/mi-cuenta/customer-logout/?_wpnonce=6916a17560"><i class="fas fa-sign-out-alt"></i> Salir</a>
             </li>
           </ul>
 
