@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Pagina accesos
+Template Name: Pagina Home
 */
 get_header();
 ?>

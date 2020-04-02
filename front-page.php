@@ -1,7 +1,4 @@
 <?php 
-/*
-Template Name: Pagina accesos
-*/
 get_header();
 ?>
 
