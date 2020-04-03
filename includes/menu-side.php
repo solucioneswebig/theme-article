@@ -1,7 +1,7 @@
   <!-- Sidebar Holder -->
   <nav id="sidebar">
     <div class="sidebar-header">
-      <h3><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/RA.png" class="img-fluid" alt="Logo webx"></h3>
+      <h3><img src="<?php echo get_template_directory_uri(); ?>/img/logo-1.png" class="img-fluid" alt="Logo webx"></h3>
     </div>
     <h5 class="text-center"></h5>
     <ul class="list-unstyled components">

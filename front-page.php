@@ -10,18 +10,17 @@ get_header();
       <div class="row justify-content-center">
       <div class="col-md-10">
       <div class="intro-text">
-        <h1 class="titulo type-wrap pb-5">Get Ultra-High Quality, Content To Turbo-Charge Your <span id="typed2" style="white-space:pre;"></span></h1>
-        <h2 class="intro-headin text-center">Blog posts, Blog Posts, Product Descriptions, SEO Articles, Press Releases, Product Reviews, Web Copy, Rewrites -
-We got you covered</h2>
+        <h1 class="titulo type-wrap pb-5">La Plataforma N°1 de Marketing de Contenidos para: <span id="typed2" style="white-space:pre;"></span></h1>
+        <h2 class="intro-headin text-center">Blog Posts, Product Descriptions, SEO Articles, Press Releases, Product Reviews, Web Copy, Rewrites</h2>
         
-        <h2 class="text-center pt-4">Starting at $0.80 per 100 words</h2>
+			<h2 class="text-center pt-4">Starting at $0.80 per 100 words</h2>
       
       </div>
       </div>
       </div>
       <div class="row justify-content-center espacio-bottom-p py-4">
           <div class="col-md-10 text-center">
-            <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton">Order Now</a>
+            <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton">ORDER NOW</a>
           </div>
        </div>
       <div class="row justify-content-center pt-4 espacio-arriba-p">
@@ -39,24 +38,20 @@ We got you covered</h2>
       <div class="container pb-4">
           <div class="row">
               <div class="col-md-4">
-                <H2 class="pb-5">Who We Are</H2>
-                <p class="text-muted entre-linea">Our goal is to make a difference in the industry and we take our business very, very seriously. We are not here just to make a quick buck.
+                <H2 class="pb-5">Soluciones escalables </H2>
+                <p class="text-muted entre-linea">Desde 2015, ComprarContenidos.com es el socio de confianza para la generación de contenido de calidad. Contamos con clientes importantes y empresas que cotizan en bolsa, emprendedores de negocios online, agencias de SEO, portales de turismo, comunidades de redes sociales, editoriales y Bloggers.
 
-                Our business model relies on creating long-term relationships so we get regular work while spending less on marketing, and you get high quality content delivered on time and at a great price…every single time.</p>
-               <h5 class="color pb-3">This Way, We Both Win!</h5>
-               <p class="text-muted entre-linea">Our goal is to make a difference in the industry and we take our business very, very seriously. We are not here just to make a quick buck.</p>
+</p>
 
                <div class="row py-4">
                   <div class="col-md-12 pb-3">
-                    <a href="#" class="btn boton py-2">Our Samples</a>
+                    <a href="#" class="btn boton py-2">Algunos ejemplos</a>
                   </div>
-                  <div class="col-md-12">
-                    <a href="#" class="btn boton py-2">Ezinearticles Samples Account</a>
-                  </div>
+                
                </div>
              </div>
              <div class="col-md-8">
-               <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/personas.jpg" alt="">
+               <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/trafico-1.png" alt="">
              </div>
           </div>
       </div>
@@ -68,7 +63,7 @@ We got you covered</h2>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase py-2">Why Us</h2>
+          <h2 class="section-heading text-uppercase py-2">Por qué nosotros?</h2>
         </div>
       </div>
       <div class="row text-center">
@@ -76,22 +71,22 @@ We got you covered</h2>
           <span class="fa-stack fa-4x">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/g.png" alt="">
           </span>
-          <h6 class="service-heading py-2">E-Commerce</h6>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
+          <h6 class="service-heading py-2">Soluciones para E-Commerce</h6>
+          <p class="text-muted">Posiciona tus productos en Google y aumentá tus ventas.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/doble-a.png" alt="">
           </span>
-          <h6 class="service-heading py-2">Responsive Design</h6>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
+          <h6 class="service-heading py-2">Soluciones para Agencias digitales</h6>
+          <p class="text-muted">Fideliza tus clientes y aumenta tu rentabilidad</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/caja.png" alt="">
           </span>
-          <h6 class="service-heading py-2">Web Security</h6>
-          <p class="text-muted">Lorem ipsum dolor sit amet, </p>
+          <h6 class="service-heading py-2">Soluciones para Pymes</h6>
+          <p class="text-muted">Haz visible tu negocio en Internet y consigue visitas orgánicas</p>
         </div>
       </div>
 
@@ -100,43 +95,26 @@ We got you covered</h2>
           <span class="fa-stack fa-4x">
            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/trofeo.png" alt="">
           </span>
-          <h6 class="service-heading py-2">E-Commerce</h6>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
+          <h6 class="service-heading py-2">Soluciones para Medios</h6>
+          <p class="text-muted">Estira el interés por la noticia con contenidos relacionados</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/reloj.png" alt="">
           </span>
-          <h6 class="service-heading py-2">Responsive Design</h6>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
+          <h6 class="service-heading py-2">Soluciones para sector Travel</h6>
+          <p class="text-muted">Posiciona tus destinos e inspira a tus clientes a viajar</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/payment.png" alt="">
           </span>
-          <h6 class="service-heading py-2">Web Security</h6>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
+          <h6 class="service-heading py-2">Soluciones para Integrables</h6>
+          <p class="text-muted">Ofrece a tus clientes un servicio premium de creación de conteindos</p>
         </div>
       </div>
 
-      <div class="row justify-content-center text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-           <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/certificado.png" alt="">
-          </span>
-          <h4 class="service-heading py-2">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mira.png" alt="">
-          </span>
-          <h4 class="service-heading py-2">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  </section> 
 
 
 
@@ -145,20 +123,20 @@ We got you covered</h2>
       <div class="container">
            <div class="row">
               <div class="col-md-3">
-                  <h2 class="text-center text-white">2.500.500+</h2>
-                  <p class="text-muted text-center">Lorem ipsum</p>
+                  <h1 class="text-center text-white">7.155.000+</h1>
+                  <p class="text-muted text-center">Millones de palabras escritas</p>
               </div>
               <div class="col-md-3">
-                  <h2 class="text-center text-white">93%</h2>
-                  <p class="text-muted text-center">Lorem ipsum</p>
+                  <h1 class="text-center text-white">97%</h1>
+                  <p class="text-muted text-center">Comentarios Positivos</p>
               </div>
               <div class="col-md-3">
-                  <h2 class="text-center text-white">2.500.500+</h2>
-                  <p class="text-muted text-center">Lorem ipsum</p>
+                  <h1 class="text-center text-white">14.500</h1>
+                  <p class="text-muted text-center">Usuarios Registrados</p>
               </div>
               <div class="col-md-3">
-                  <h2 class="text-center text-white">2.500.500+</h2>
-                  <p class="text-muted text-center">Lorem ipsum</p>
+                  <h1 class="text-center text-white">7.950</h1>
+                  <p class="text-muted text-center">Articulos entregados</p>
               </div>
            </div>
           <div class="row justify-content-center">
@@ -174,21 +152,20 @@ We got you covered</h2>
 <section class="espacio-arriba espacio-bottom-p"> 
     <div class="container">
       <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase py-4">What Clients Say</h2>
+          <h2 class="section-heading text-uppercase py-4">¿Que dicen nuestros clientes?</h2>
         </div>
         <div class="row justify-content-center">
 
             <div class="col-md-4 m-auto">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem placeat ad iure. Voluptate veniam eos fuga quam iure quas aperiam amet. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">"Me aportan un gran beneficio y tranquilidad de no tener que preocuparme por escribir los contenidos y un ahorro de tiempo para poder seguir con lo que mejor sé."</p>
                  <div class="row justify-content-center px-5">
                        <div class="col-md-4 col-4">
-                           <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/team/1.jpg" alt="" width="50px">
+                           <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/1.jpg" alt="" width="50px">
                        </div>
                        <div class="col-md-7 col-7">
-                           <h6 class="text-left pt-1">Juan Perez</h6>
-            <p class="text-muted text-left">Identity.</p>
+                           <h6 class="text-left pt-1">Mariano Baresi</h6>
                        </div>
                     </div>
                 </div>
@@ -198,14 +175,14 @@ We got you covered</h2>
             <div class="col-md-4 m-auto">
                <div class="card">
                 <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eum est vero, voluptates corporis. Soluta, aspernatur ipsum ab vero maiores esse. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">"Artículos bien escritos y de calidad sobre nuestro tema específico de acuerdo con nuestros requisitos exactos. Son profesionales y trabajar con ellos ha sido un placer absoluto".
+</p>
                   <div class="row justify-content-center px-5">
                        <div class="col-md-4 col-4">
-                           <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/team/1.jpg" alt="" width="50px">
+                           <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/2.jpg" alt="" width="50px">
                        </div>
                        <div class="col-md-7 col-7">
-                           <h6 class="text-left pt-1">Juan Perez</h6>
-            <p class="text-muted text-left">Identity.</p>
+                           <h6 class="text-left pt-1">Paola Gonzalez</h6>
                        </div>
                     </div>
                 </div>
@@ -215,14 +192,13 @@ We got you covered</h2>
             <div class="col-md-4 m-auto">
               <div class="card">
                   <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam in ipsa odio, iste nihil optio voluptates maxime, reiciendis ut, adipisci ipsum. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">"Contenido fresco, bien escrito y 100% original. Los artículos son artículos informativos con enlaces que establecen autoridad en línea e involucran a su mercado objetivo".</p>
                     <div class="row justify-content-center px-5">
                        <div class="col-md-4 col-4">
-                           <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/team/1.jpg" alt="" width="50px">
+                           <img class="mx-auto rounded-circle" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/3.jpg" alt="" width="50px">
                        </div>
                        <div class="col-md-7 col-7">
-                           <h6 class="text-left pt-1">Juan Perez</h6>
-            <p class="text-muted text-left">Identity.</p>
+                           <h6 class="text-left pt-1">Florencia Gutierrez</h6>
                        </div>
                     </div>
                   </div>
@@ -241,7 +217,7 @@ We got you covered</h2>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">How To Order</h2>
+          <h2 class="section-heading text-uppercase">¿Cómo comprar?</h2>
         </div>
       </div>
       <div class="row text-center pt-5">
@@ -250,16 +226,16 @@ We got you covered</h2>
           <span class="fa-stack fa-4x">
            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/1.png" alt="" width="120px">
           </span>
-          <h5 class="service-heading pb-2">E-Commerce</h5>
-          <p class="text-muted">Lorem ipsum dolor sit amet,</p>
+          <h5 class="service-heading pb-2">Registrese</h5>
+          <p class="text-muted">Acceda gratuitamente</p>
         </div>
 
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/2.png" alt="" width="120px">
           </span>
-          <h5 class="service-heading pb-2">Responsive Design</h5>
-          <p class="text-muted">Lorem ipsum dolor sit</p>
+          <h5 class="service-heading pb-2">Crear Pedido</h5>
+          <p class="text-muted">Especifique que palabras claves y tipo de articulo necesita</p>
         </div>
 
         <div class="col-md-4">
@@ -267,19 +243,20 @@ We got you covered</h2>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/3.png" alt="" width="120px">
           </span>
           <h5 class="service-heading pb-2">Web Security</h5>
-          <p class="text-muted">Lorem ipsum dolor sit.</p>
+          <p class="text-muted">Haga clic en el botón de pedido, luego simplemente siéntese y relájese.</p>
         </div>
       </div>
 
        <div class="row justify-content-center espacio-bottom pt-4">
           <div class="col-md-10 text-center">
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci perspiciatis nobis libero ducimus exercitationem aut autem repellat temporibus mollitia, ratione, dolorum placeat quisquam.</p>
+            <p class="text-center">Comenzaremos a trabajar en su contenido de inmediato para que pueda volver a hacer lo que mejor sabe hacer; administrando su negocio. Cuando sus artículos estén terminados, los enviaremos directamente a su bandeja de entrada ... sin problemas.
+</p>
 
-            <h5 class="py-2 color">Lorem ipsum dolor sit amet</h5>
+            <h5 class="py-2 color">Nuestra garantia</h5>
 
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. temporibus mollitia, ratione, dolorum placeat quisquam.</p>
+            <p class="text-center">Si no estás satisfecho con los textos, te los volvemos a redactar sin coste alguno. Aprovéchate de nuestra garantía de satisfacción que gusta tanto a nuestros clientes.</p>
 
-            <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton">Order Now</a>
+            <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton">ORDER NOW</a>
           </div>
        </div>
 
@@ -298,7 +275,7 @@ We got you covered</h2>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center py-4">
-          <h2 class="section-heading text-uppercase">FAQ</h2>
+          <h2 class="section-heading text-uppercase">Preguntas más frecuentes</h2>
         </div>
             <div class="col-md-8 pt-3">
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -307,13 +284,15 @@ We got you covered</h2>
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-                                    What are the prices?
+                                    ¿Cómo ordenar?
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                <p>Si solicita un artículo, elija la cantidad de artículos necesarios y la cantidad de palabras, escriba el título / palabra clave en el campo del formulario de pedido, proporcione instrucciones claras y concisas relacionadas con su pedido (Ej: tono , agregue ejemplos, si es en primera, segunda o tercera persona la redacción, densidad de palabras clave, palabras clave, enlaces, etc.) Cuanto más claras sean sus instrucciones, mejor será su resultado final.
+
+</p>
                             </div>
                         </div>
                     </div>
@@ -322,13 +301,17 @@ We got you covered</h2>
                         <div class="panel-heading" role="tab" id="headingTwo">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What Is The Difference Between The Regular Articles to the Authority Content Articles?
+                                   ¿Cuáles son los precios?
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                <p>Usted determina la cantidad de articulos, palabras y solo paga por lo que ordena.</p>
+
+<p><strong>Artículos en español:</strong> El precio de usd 0.80 por cada 100 palabras.</p>
+
+<p><strong>Contenido en ingles:</strong> El precio de usd 3 por 100 palabras.</p>
                             </div>
                         </div>
                     </div>
@@ -337,17 +320,57 @@ We got you covered</h2>
                         <div class="panel-heading" role="tab" id="headingThree">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  How and when can I request a revision of an article?
+                                  ¿Cómo y cuándo puedo solicitar una revisión de un artículo?
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                <p>Para solicitar una revisión, simplemente haga clic en el botón de revisión en la página de su pedido.
+Tenemos una política de revisión ilimitada. Queremos que esté 100% satisfecho.
+Intenta darle al autor tanta información en el original.
+
+</p>
                             </div>
                         </div>
                     </div>
 
+
+<div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  ¿Cuánto tiempo lleva hasta que un pedido esté listo?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                <p>Por lo general, entregamos dentro de los 3 días hábiles posteriores a la realización del pedido. Nuestra garantía es de 7 días.
+
+</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+<div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  ¿Cuál es la diferencia de ComprarContenidos.com con otras plataformas similares?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body">
+                                <p>Tenemos el mejor precio por cantidad de palabras y una excelente calidad de redactores.</p>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+					
                 </div>
             </div>
         </div>
@@ -363,8 +386,8 @@ We got you covered</h2>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase text-white py-2">Latest Post</h2>
-          <h3 class="section-subheading pb-5 pt-3 tamano-fuente text-white">Lorem ipsum dolor.</h3>
+          <h2 class="section-heading text-uppercase text-white py-2">BLOG: Últimas publicaciones</h2>
+          <h3 class="section-subheading pb-5 pt-3 tamano-fuente text-white">Contenido para impulsar su negocio</h3>
         </div>
       </div>
       <div class="row">
@@ -394,7 +417,7 @@ We got you covered</h2>
           </a>
           <div class="portfolio-caption">
             <small class="text-uppercase"><?php echo  get_the_date( 'F').", ".get_the_date( 'Y'); ?></small>
-            <a class="color-a" href="<?php echo get_permalink(); ?>"><h4 class="py-1 text-uppercase"><?php echo the_title(); ?></h4></a>
+            <a class="color-a" href="<?php echo get_permalink(); ?>"><h6 class="py-1 text-uppercase"><?php echo the_title(); ?></h6></a>
             <p class="pt-2"><?php echo the_excerpt(); ?></p>
             <a class="text-left color-a linea" href="<?php echo get_permalink(); ?>">Leer más</a>
           </div>
@@ -413,40 +436,35 @@ We got you covered</h2>
 
 
    
-   <!--====SECCION N°8===-->
-  <section class="py-5 espacio-arriba">
-    <div class="container">
-      <div class="row">
-     <div class="col-md-8">  
-      <div class="owl-carousel">
-          
-  <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img//portfolio/logo1.png" alt="Owl Image"></div>
-  <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img//portfolio/logo2.png" alt="Owl Image"></div>
-  <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img//portfolio/logo3.png" alt="Owl Image"></div>
 
-</div>
-</div>
-</div>
+      <div class="col-md-12 text-center">
+          
+  <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/img/cliente-1.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-2.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-3.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-4.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-5.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-6.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-7.png" alt="Owl Image">
+<img src="<?php echo get_template_directory_uri(); ?>/img/cliente-8.png" alt="Owl Image"></div>
     </div>
   </section>
 
-
-
-
-<!--====SECCION N°9===-->
 <section class="fondo-secre">
   <div class="transparente">
     <div class="container">
         <div class="row espacio-arriba pt-5 justify-content-center">
             <div class="col-md-8">
-                <h2 class="text-center py-4">DO YOU NEED WRITERS TO CREATE UNIQUE CONTENT?</h2>
-                <p class="text-center">THE QUICK WAY TO CUSTOM CONTENT</p>
+                <h2 class="text-center py-4">¿NECESITAS ESCRITORES PARA CREAR CONTENIDO ÚNICO?
+</h2>
+                <p class="text-center">LA MANERA RÁPIDA DE CONTENIDO PERSONALIZADO
+</p>
 
             </div>
         </div>
         <div class="row py-5 justify-content-center espacio-bottom-p">
                   <div class="col-md-12 text-center">
-                    <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton py-2 text-center">Order Now!</a>
+                    <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton py-2 text-center">ORDER NOW</a>
                   </div>
                </div>
 
@@ -456,23 +474,23 @@ We got you covered</h2>
 
 
 
-<!--====SECCION N°10===-->
+<!--====SECCION N°10===--
 <section class="seccion-balnca">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">HAVE SOME QUESTIONS?</h2>
+                <h2 class="text-center">¿Tienes algunas preguntas?</h2>
             </div>
              </div>
              <div class="row pt-5 justify-content-center">
                   <div class="col-md-12 text-center">
-                    <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton py-2 text-center">Contact Us</a>
+                    <a href="<?php echo get_site_url(); ?>/mi-cuenta/" class="btn boton py-2 text-center">Contáctenos</a>
                   </div>
                </div>
        
     </div>
 </section>
-
+-->
 
 <?php
 get_footer();

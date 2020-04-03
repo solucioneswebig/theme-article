@@ -13,9 +13,9 @@ get_header();
       <div class="row justify-content-center">
       <div class="col-md-10">
       <div class="intro-text">
-        <h1 class="titulo type-wrap pb-5">Get Ultra-High Quality, Content To Turbo-Charge Your <span id="typed2" style="white-space:pre;"></span></h1>
+        <h1 class="titulo type-wrap pb-5">La Plataforma N°1 para comprar artículos y potenciar tus:  <span id="typed2" style="white-space:pre;"></span></h1>
         <h2 class="intro-headin text-center">Blog posts, Blog Posts, Product Descriptions, SEO Articles, Press Releases, Product Reviews, Web Copy, Rewrites -
-We got you covered</h2>
+Cubrimos todas tus necesitades</h2>
         
         <h2 class="text-center pt-4">Starting at $0.80 per 100 words</h2>
       

@@ -43,10 +43,10 @@
   if($("#typed2").length){
    var typed2 = new Typed('#typed2', {
     strings: [
-      'with',
-      'Some',
-      'exito',
-      'Chars'
+      'Blogs',
+      'Agencias',
+      'Medios',
+	  'Ecommerce'
     ],
     typeSpeed: 70,
     backSpeed: 50,
